@@ -23,17 +23,19 @@ public class RouletteRestController {
         return rouletteServiceAPI.findAll();
     }
 
-    @PostMapping(value = "/save")
+    @PostMapping(value = "/save/")
     public ResponseEntity<Roulette> save(@RequestBody Roulette rou){
+        rou.setOpen(true);
         Roulette roulette=rouletteServiceAPI.save(rou);
         return new ResponseEntity<>(roulette, HttpStatus.OK);
     }
-    /*@PostMapping(value = "/close/{id}")
+    @PostMapping(value = "/close/{id}")
     public ResponseEntity<Roulette> update(@PathVariable int id){
         Roulette roulette= rouletteServiceAPI.findById(id);
-        if (roulette=!null){
-
-        }
-    }*/
+        if (roulette==null)return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        roulette.setOpen(false);
+        rouletteServiceAPI.save(roulette);
+        return new ResponseEntity<>(roulette, HttpStatus.OK);
+    }
 
 }

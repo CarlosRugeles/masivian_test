@@ -10,26 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a229cc17-3950-4a39-9c22-5260369da451" name="Default Changelist" comment="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/PruebaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/controller/RouletteRestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/models/Roulette.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/repository/RouletteServiceAPI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prueba_cp/src/test/java/com/rugeles/prueba/PruebaApplicationTests.java" beforeDir="false" />
+    <list default="true" id="a229cc17-3950-4a39-9c22-5260369da451" name="Default Changelist" comment="Se agregn clases generads par las apis">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prueba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prueba.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/controller/RouletteRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/controller/RouletteRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/models/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/models/Roulette.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +31,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -74,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1593491387918</updated>
       <workItem from="1593491391703" duration="315000" />
-      <workItem from="1593491715883" duration="86000" />
+      <workItem from="1593491715883" duration="783000" />
+      <workItem from="1593535350677" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql">
       <created>1593491545001</created>
@@ -83,7 +76,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593491545001</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql">
+      <created>1593491827881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593491827881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Se agregn clases generads par las apis">
+      <created>1593491851173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593491851173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,24 +110,78 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql" />
+    <MESSAGE value="Se agregn clases generads par las apis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregn clases generads par las apis" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2141" y="430" width="187" height="233" key="#Assign_Data_Sources" timestamp="1593535492040">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2141" y="430" width="187" height="233" key="#Assign_Data_Sources/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535492040" />
     <state x="443" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1593491761254">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="443" y="131" width="1024" height="852" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1593491761254" />
-    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593491800702">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="1698" y="189" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593535480458">
+      <screen x="1280" y="0" width="1920" height="1080" />
     </state>
+    <state x="1698" y="189" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535480458" />
     <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1593491800702" />
+    <state x="2048" y="227" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1593535558438">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2048" y="227" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535558438" />
     <state x="692" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593491798437">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="692" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1593491798437" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593491555675">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1593496654247">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1593491555675" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654247" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1593496654247">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654247" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1593496654246">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654246" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1593496654247">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654247" />
+    <state width="1874" height="275" key="GridCell.Tab.1.bottom" timestamp="1593496654248">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654248" />
+    <state width="1874" height="275" key="GridCell.Tab.1.center" timestamp="1593496654247">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654247" />
+    <state width="1874" height="275" key="GridCell.Tab.1.left" timestamp="1593496654247">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654247" />
+    <state width="1874" height="275" key="GridCell.Tab.1.right" timestamp="1593496654247">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654247" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593491855643">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1593491855643" />
+    <state x="2074" y="246" width="321" height="595" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1593535547077">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2074" y="246" width="321" height="595" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535547077" />
+    <state x="731" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593491884011">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="731" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1593491884011" />
+    <state x="1903" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1593535835123">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1903" y="239" width="672" height="678" key="search.everywhere.popup/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535835123" />
   </component>
 </project>

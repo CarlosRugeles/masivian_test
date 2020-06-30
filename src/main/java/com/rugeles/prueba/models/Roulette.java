@@ -8,6 +8,7 @@ public class Roulette {
 
     private int id;
     private String name;
+    private boolean isOpen;
 
     public Roulette() {
     }
@@ -36,5 +37,15 @@ public class Roulette {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Basic
+    @Column(name = "isOpen")
+    public boolean isOpen() {
+        return isOpen;
+    }
+
+    public void setOpen(boolean open) {
+        isOpen = open;
     }
 }
