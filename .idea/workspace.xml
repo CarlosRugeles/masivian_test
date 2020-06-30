@@ -10,17 +10,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a229cc17-3950-4a39-9c22-5260369da451" name="Default Changelist" comment="Se agregn clases generads par las apis">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prueba.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prueba.iml" afterDir="false" />
+    <list default="true" id="a229cc17-3950-4a39-9c22-5260369da451" name="Default Changelist" comment="Se agrega si la ruleta fue abierta">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/models/Bet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/repository/BetServiceApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58565a28-1f45-4ddb-81ee-adb27b5c0cbd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58565a28-1f45-4ddb-81ee-adb27b5c0cbd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/58565a28-1f45-4ddb-81ee-adb27b5c0cbd/storage_v2/_src_/database/defruta.dZEbXA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/58565a28-1f45-4ddb-81ee-adb27b5c0cbd/storage_v2/_src_/database/defruta.dZEbXA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/controller/RouletteRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/controller/RouletteRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/models/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rugeles/prueba/models/Roulette.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +76,7 @@
       <updated>1593491387918</updated>
       <workItem from="1593491391703" duration="315000" />
       <workItem from="1593491715883" duration="783000" />
-      <workItem from="1593535350677" duration="596000" />
+      <workItem from="1593535350677" duration="1997000" />
     </task>
     <task id="LOCAL-00001" summary="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql">
       <created>1593491545001</created>
@@ -90,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593491851173</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Se agrega si la ruleta fue abierta">
+      <created>1593536093292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593536093292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql" />
     <MESSAGE value="Se agregn clases generads par las apis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregn clases generads par las apis" />
+    <MESSAGE value="Se agrega si la ruleta fue abierta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega si la ruleta fue abierta" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2141" y="430" width="187" height="233" key="#Assign_Data_Sources" timestamp="1593535492040">
@@ -127,10 +144,10 @@
     </state>
     <state x="1698" y="189" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535480458" />
     <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1593491800702" />
-    <state x="2048" y="227" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1593535558438">
+    <state x="2048" y="227" width="374" height="633" key="#com.intellij.ide.util.MemberChooser" timestamp="1593536896539">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state x="2048" y="227" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535558438" />
+    <state x="2048" y="227" width="374" height="633" key="#com.intellij.ide.util.MemberChooser/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593536896539" />
     <state x="692" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593491798437">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -167,14 +184,15 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="275" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1593496654247" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593491855643">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1593491855643" />
-    <state x="2074" y="246" width="321" height="595" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1593535547077">
+    <state x="1835" y="269" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593536070654">
       <screen x="1280" y="0" width="1920" height="1080" />
     </state>
-    <state x="2074" y="246" width="321" height="595" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593535547077" />
+    <state x="1835" y="269" key="Vcs.Push.Dialog.v2/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593536070654" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1593491855643" />
+    <state x="1527" y="246" width="868" height="595" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1593536806769">
+      <screen x="1280" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1527" y="246" width="868" height="595" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1280.693/1280.0.1920.1080@1280.0.1920.1080" timestamp="1593536806769" />
     <state x="731" y="468" width="458" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593491884011">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
