@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a229cc17-3950-4a39-9c22-5260369da451" name="Default Changelist" comment="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/PruebaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/controller/RouletteRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/models/Roulette.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/java/com/rugeles/prueba/repository/RouletteServiceAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba_cp/src/test/java/com/rugeles/prueba/PruebaApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e1a7mU3DdJYSCmL5LfL2CHRElz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="prueba" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rugeles.prueba.PruebaApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a229cc17-3950-4a39-9c22-5260369da451" name="Default Changelist" comment="" />
+      <created>1593491387918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593491387918</updated>
+      <workItem from="1593491391703" duration="315000" />
+      <workItem from="1593491715883" duration="86000" />
+    </task>
+    <task id="LOCAL-00001" summary="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql">
+      <created>1593491545001</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593491545001</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se inicializa el respositorio, con la estructura de spring boot y &#10;base de datos postgresql" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1593491761254">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="131" width="1024" height="852" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1593491761254" />
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593491800702">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1593491800702" />
+    <state x="692" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593491798437">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="692" y="345" width="525" height="423" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1593491798437" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593491555675">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1593491555675" />
+  </component>
+</project>
